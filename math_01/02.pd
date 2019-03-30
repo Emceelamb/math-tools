@@ -1,0 +1,17 @@
+#N canvas 1167 268 1176 745 10;
+#X floatatom 126 245 5 0 0 0 - - -, f 5;
+#X obj 126 133 f;
+#X obj 126 67 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X msg 215 116 3;
+#X text 125 151 float foo \;;
+#X msg 12 116 8;
+#X text 212 132 qeues number;
+#X text 10 133 queue and send;
+#X obj 219 190 + 1;
+#X connect 1 0 0 0;
+#X connect 1 0 8 0;
+#X connect 2 0 1 0;
+#X connect 3 0 1 1;
+#X connect 5 0 1 0;
+#X connect 8 0 1 1;
