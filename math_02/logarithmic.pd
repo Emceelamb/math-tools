@@ -1,0 +1,10 @@
+#N canvas 462 872 450 300 10;
+#X obj 47 20 hsl 128 15 20 20000 1 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X obj 47 75 hsl 128 15 20 20000 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X floatatom 67 104 8 0 0 0 - - -, f 8;
+#X floatatom 65 45 8 0 0 0 - - -, f 8;
+#X connect 0 0 1 0;
+#X connect 0 0 3 0;
+#X connect 1 0 2 0;
