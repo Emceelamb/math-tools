@@ -1,0 +1,34 @@
+#N canvas 307 388 450 300 10;
+#X obj 46 20 cnv 15 120 200 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 297 20 cnv 15 120 200 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X obj 201 242 writesf~;
+#X msg 302 64 start;
+#X msg 333 179 stop;
+#X msg 63 41 100;
+#X obj 64 96 osc~;
+#X msg 301 24 open mysound.wav;
+#X obj 314 143 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 358 79 bang;
+#X obj 333 106 del 100;
+#X obj 129 123 osc~;
+#X obj 101 63 * 2;
+#X obj 175 73 expr $f1 * 2 / 3;
+#X obj 102 93 / 3;
+#X obj 105 173 *~ 1;
+#X connect 3 0 2 0;
+#X connect 3 0 9 0;
+#X connect 4 0 2 0;
+#X connect 5 0 6 0;
+#X connect 5 0 12 0;
+#X connect 6 0 15 0;
+#X connect 7 0 2 0;
+#X connect 9 0 10 0;
+#X connect 10 0 4 0;
+#X connect 10 0 8 0;
+#X connect 11 0 15 0;
+#X connect 12 0 14 0;
+#X connect 14 0 11 0;
+#X connect 15 0 2 0;
