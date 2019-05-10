@@ -1,6 +1,6 @@
 # Pure Data Notes
 
-| term    | defintion
+| term    | definition                        |
 | ------- | --------------------------------  |
 | dac~    | digital audio convertor           |
 | ~       | refers to audio                   |
