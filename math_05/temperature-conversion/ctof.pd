@@ -1,0 +1,12 @@
+#N canvas 220 390 450 300 10;
+#N canvas 678 390 450 300 ctof 1;
+#X obj 116 55 inlet;
+#X obj 119 163 outlet;
+#X obj 117 108 expr $f1*5/9+32;
+#X connect 0 0 2 0;
+#X connect 2 0 1 0;
+#X restore 114 49 pd ctof;
+#X floatatom 114 13 5 0 0 0 - - -;
+#X floatatom 110 100 5 0 0 0 - - -;
+#X connect 0 0 2 0;
+#X connect 1 0 0 0;
